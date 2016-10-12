@@ -1,3 +1,15 @@
+# init gulp/bower
+
+1. Rename `content/themes/[theme-name]`
+2. Replace `[theme-name]` in:
+    * .bowerrc @:2
+    * .gitignore @:7
+    * gulpfile.js @:5
+    * bower.json @:14
+3. Gulp tasks:
+    * `gulp sass` = compiles `content/themes/[theme-name]/scss/style.scss`
+    * `gulp watch` = watches `content/themes/[theme-name]/scss/style.scss` and then `gulp sass`
+
 # WordPress Skeleton
 
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!

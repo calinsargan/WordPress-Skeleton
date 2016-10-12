@@ -1,0 +1,22 @@
+{
+  "name": "WordPress-Skeleton",
+  "homepage": "https://github.com/calinsargan/WordPress-Skeleton",
+  "authors": [
+    "Calin Sargan <calin.sargan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "content/themes/[theme-name]/components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}

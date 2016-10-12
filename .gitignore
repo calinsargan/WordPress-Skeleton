@@ -3,4 +3,5 @@
 /sql-dump-*.sql
 /db-sync
 /content/upgrade/
-.DS_Store
+/node_modules
+/content/themes/[theme-name]/components
